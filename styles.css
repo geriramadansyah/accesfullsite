@@ -209,7 +209,7 @@ span h2::before {
   background-color: #fff;
   width: 90%;
   max-width: 400px;
-  height: 75vh;
+  height: auto;
   overflow-y: auto;
   padding: 20px;
   border-radius: 10px;
@@ -282,7 +282,7 @@ span h2::before {
   flex: 1 1 calc(33.333% - 40px); /* Adjusted for gap */
   min-width: 280px;
   max-width: 350px;
-  max-height:auto;
+  max-height:100%;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
