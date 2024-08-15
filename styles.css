@@ -323,9 +323,10 @@ width:100%;
     filter: blur(3px); 
     transition: filter 0.3s ease;
 }
-.site-details-popup img {
-  width: 70%;
-  height: 70%;
+#site-details-popup img {
+  width: 75%;
+  height: 75%;
+  object-fit:cover;
   margin: 20px 0;
 }
 .csd {
